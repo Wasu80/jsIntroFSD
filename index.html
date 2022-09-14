@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+    <style>
+        #html,#css,#bootstrap,#hello{
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="text-align: center;">
+        <!-- Web Development -->
+        <h1 id="head">Web Development</h1>
+        <p id="html"></p>
+        <p id="css"></p>
+        <p id="bootstrap"></p>
+
+        <!-- JavaScript -->
+        <h3 id="js"></h3>
+        <p id="hello"></p>
+    </div>
+
+    <script>
+        document.body.style.backgroundColor = "rgb(189, 184, 184)"
+        document.body.style.fontFamily = "monospace"
+
+        document.getElementById('head').style.fontSize = "45px"
+        document.getElementById('head').style.color = "red"
+
+        document.getElementById('html').innerHTML = "HTML completed (100%)"
+  
+        
+        document.getElementById('css').innerHTML = "CSS completed (70%)"
+
+        document.getElementById('bootstrap').innerHTML = "Bootstrap completed (85%)"
+
+        document.getElementById('js').innerHTML = "Introduction to JavaScript"
+        document.getElementById('js').style.color = "green"
+        document.getElementById('js').style.fontSize = "25px"
+
+        document.getElementById('hello').innerHTML = "Hello javaScript !!"
+    </script>
+
+</body>
+</html>
